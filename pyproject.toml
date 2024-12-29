@@ -7,7 +7,7 @@ packages = ["SmarTFUzz"]
 
 [project]
 name = "SmarTFUzz"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
   { name="dumbBits" },
 ]
@@ -22,3 +22,6 @@ classifiers = [
 [project.urls]
 Homepage = "https://github.com/dumbBits/stfu"
 Issues = "https://github.com/dumbBits/stfu/issues"
+
+[project.scripts]
+stfu = "SmarTFUzz.main:main"

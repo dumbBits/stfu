@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import argparse
 import requests 
-from stfu.url_fuzzer import (
+from SmarTFUzz.url_fuzzer import (
     generate_url_permutations,
     send_http_request,
     send_selenium_requests,

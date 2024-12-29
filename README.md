@@ -26,6 +26,8 @@
 git clone https://github.com/yourusername/url-fuzzer.git
 cd url-fuzzer
 
+pip install SmarTFUzz
+
 pip install -r requirements.txt
 
 chmod +x main.py
